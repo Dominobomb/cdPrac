@@ -42,4 +42,9 @@ header { width: 1000px; height: 100%;
 #gnb>li.on ul { opacity: 0.8; left: 205px; top: -10px; }
 #gnb li.on ul a { background: #444; opacity: 0.7; }
 
-
+/* sns 버튼 */
+#sns { position: fixed; top: 60px; right: 50px; }
+#sns li { float: left; margin-right: 30px; }
+#sns .fa { font-size: 25px; color: #b9fb05; opacity: 0.5; transform: scale(1);
+			transition: all 0.5; }
+#sns .fa:hover { opacity: 1; transform: scale(1.4); }
