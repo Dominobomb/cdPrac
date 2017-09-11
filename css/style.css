@@ -11,13 +11,13 @@ body { position:fixed;  width:100%; height:100%; background:#111;}
 
 /*		비디오 부분	*/
 .vid { width: 100%; height:100%; position: fixed; top: -60px; opacity: 0.9; }
-.vid video { width: 100%; min-width: 1600px; }
+.vid video { width: 100%; min-width: 1280px; }
 .vid img { width: 100% min-width: 1600px; }
 /*		로고 부분		*/
 h1 { position: fixed; top: 40px; left: 40px; z-index: 10; }
 h1 img { width: 280px; height: auto; }
 header { width: 1000px; height: 100%; 
-	background: linear-gradient(-45deg, #e6fc55, #b9fb05, #999);
+	background: linear-gradient(-45deg, #4f4f4f, #3547b5, #3ca6ff);
 	transform: skewX(-50deg); position: fixed; top: 0px; left: -800px; }
 
 /* 1depth */
@@ -33,7 +33,7 @@ header { width: 1000px; height: 100%;
 
 /* 2depth */
 #gnb ul { position: absolute; left: 0px; top: 0px; opacity: 0; transition: all 0.4s; }
-#gnb>li:hover ul { opacity: 0.8; left: 205px; }
+#gnb>li:hover ul { opacity: 0.8; left: 220px; }
 #gnb ul a { display: block; width: 150px; height: 40px; background: #222;
 			border-bottom: 1px solid #b0fb05; font: bold 16px/2.5 arial;
 			color: #fff; box-sizing: border-box; padding-left: 50px;
