@@ -50,8 +50,8 @@ header { width: 1000px; height: 100%;
 #sns .fa:hover { opacity: 1; transform: scale(1.4); }
 
 /* txt박스 */
-@import url(http://fonts.googleapis.com/css?family=Play);
-@import url(http://fonts.googleapis.com/css?family=Monoton);
+@import url(https://fonts.googleapis.com/css?family=Play);
+@import url(https://fonts.googleapis.com/css?family=Monoton);
 
 .txtBox { width: 340px; height: 280px; position: fixed; top: 200px; right: 70px; }
 .txt { position: absolute; top: 200px; right: 0px; font-size: 34px; font-family: 'play';
