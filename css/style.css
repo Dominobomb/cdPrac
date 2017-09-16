@@ -93,9 +93,9 @@ header { width: 1000px; height: 100%;
 					left: 100px; color: #b9fb05; transform: skewX(40deg); }
 #side:hover .btnContents { left: 700px; }
 .btnContents i { font-size: 60px; position: absolute; bottom: 0px; right: 0px; opacity: 1; }
-.btnContents i:nth-child(1) { animation: ani linear 1.5s 0s inline; }
-.btnContents i:nth-child(2) { animation: ani linear 1.5s 0.5s inline; }
-.btnContents i:nth-child(3) { animation: ani linear 1.5s 1s inline; }
+.btnContents i:nth-child(1) { animation: ani linear 1.5s 0s infinite; }
+.btnContents i:nth-child(2) { animation: ani linear 1.5s 0.5s infinite; }
+.btnContents i:nth-child(3) { animation: ani linear 1.5s 1s infinite; }
 
 @keyframes ani {
 	0% { right: 0px; transform: scale(1); opacity: 1; }
@@ -104,7 +104,8 @@ header { width: 1000px; height: 100%;
 
 
  자동롤링 버튼*/
-#side .btnContents { width:150px; height:50px; position:absolute;  bottom:40px; left:100px; color:#b9fb05;	transform:skewX(40deg); }
+#side .btnContents { width:150px; height:50px; position:absolute;  bottom:40px;
+					left:100px; color:#b9fb05;	transform:skewX(40deg); }
 #side:hover .btnContents { left:700px;}	
 .btnContents i { font-size:60px; position:absolute; bottom:0px; right:0px; opacity:1;}
 .btnContents i:nth-child(1) { animation:ani linear 1.5s 0s infinite;}
